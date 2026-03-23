@@ -1,0 +1,41 @@
+{
+  "image": {
+    "path": "sample_image.jpg",
+    "width": 640,
+    "height": 480
+  },
+  "annotations": [
+    {
+      "id": 0,
+      "car_model": "BMW",
+      "bbox": {
+        "x": 100,
+        "y": 150,
+        "width": 200,
+        "height": 180
+      },
+      "bbox_normalized": {
+        "x_center": 0.3125,
+        "y_center": 0.5,
+        "width": 0.3125,
+        "height": 0.375
+      }
+    },
+    {
+      "id": 1,
+      "car_model": "Toyota",
+      "bbox": {
+        "x": 350,
+        "y": 100,
+        "width": 180,
+        "height": 160
+      },
+      "bbox_normalized": {
+        "x_center": 0.6875,
+        "y_center": 0.375,
+        "width": 0.28125,
+        "height": 0.3333333333333333
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+names:
+  0: Toyota
+  1: Honda
+  2: BMW
+  3: Mercedes-Benz
+  4: Audi
+  5: Volkswagen
+  6: Ford
+  7: Chevrolet
+  8: Tesla
+  9: Nissan
+  10: Hyundai
+  11: Kia
+  12: Mazda
+  13: Subaru
+  14: Lexus
+nc: 15
+path: /Users/abhiayre/MLModel/AAIModel/nest_mask_detection/SampleImages
+test: train/images
+train: train/images
+val: train/images

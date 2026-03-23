@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 177.5,
+                "y": 203
+            },
+            {
+                "x": 339.5,
+                "y": 203
+            },
+            {
+                "x": 339.5,
+                "y": 309
+            },
+            {
+                "x": 177.5,
+                "y": 309
+            }
+        ],
+        "rectMask": {
+            "xMin": 177.5,
+            "yMin": 203,
+            "width": 162,
+            "height": 106
+        },
+        "labels": {
+            "labelName": "Honda",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 258.5,
+            "y": 256
+        },
+        "contentType": "rect"
+    }
+]

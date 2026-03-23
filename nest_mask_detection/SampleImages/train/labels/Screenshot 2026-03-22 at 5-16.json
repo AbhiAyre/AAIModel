@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 621.5,
+                "y": 95.5
+            },
+            {
+                "x": 824.5,
+                "y": 95.5
+            },
+            {
+                "x": 824.5,
+                "y": 191.5
+            },
+            {
+                "x": 621.5,
+                "y": 191.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 621.5,
+            "yMin": 95.5,
+            "width": 203,
+            "height": 96
+        },
+        "labels": {
+            "labelName": "Bus",
+            "labelColor": "#1aff00",
+            "labelColorRGB": "26,255,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 723,
+            "y": 143.5
+        },
+        "contentType": "rect"
+    }
+]
