@@ -49,11 +49,7 @@ class ModelConfig:
         """Initialize class names."""
         if self.class_names is None:
             self.class_names = [
-                "Toyota", "Honda", "BMW", "Mercedes-Benz", "Audi",
-                "Volkswagen", "Ford", "Chevrolet", "Tesla", "Nissan",
-                "Hyundai", "Kia", "Mazda", "Subaru", "Lexus"
-            ]
-
+                 "Toyota", "Honda", "BMW", "Mercedes", "Audi", "Volkswagen", "Ford", "Chevy", "Tesla", "Nissan", "Hyundai", "Kia", "Pizza", "Truck", "Bus", "Police", "USPS", "FedEx", "LandRover", "Porsche", "Jeep", "Lexus","Volvo" ]
 
 @dataclass
 class DatasetConfig:

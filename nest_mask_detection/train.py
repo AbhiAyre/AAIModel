@@ -31,11 +31,11 @@ def create_dataset_yaml(data_dir: Path, output_path: Path):
         "train": "train/images",
         "val": "val/images",
         "test": "test/images",
-        "nc": 15,
+        "nc": 23,
         "names": {
-            0: "Toyota", 1: "Honda", 2: "BMW", 3: "Mercedes-Benz", 4: "Audi",
-            5: "Volkswagen", 6: "Ford", 7: "Chevrolet", 8: "Tesla", 9: "Nissan",
-            10: "Hyundai", 11: "Kia", 12: "Mazda", 13: "Subaru", 14: "Lexus"
+            0: "Toyota", 1: "Honda", 2: "BMW", 3: "Mercedes", 4: "Audi",
+            5: "Volkswagen", 6: "Ford", 7: "Chevy", 8: "Tesla", 9: "Nissan",
+            10: "Hyundai", 11: "Kia", 12: "Pizza", 13: "Truck", 14: "Bus", 15: "Police", 16: "USPS", 17: "FedEx", 18:"LandRover", 19:"Porsche", 20:"Jeep", 21:"Lexus", 22:"Volvo"
         },
     }
 
@@ -74,7 +74,7 @@ def setup_dataset(data_dir: Optional[Path] = None) -> Path:
 def train(
     data_yaml: Path,
     epochs: int = 100,
-    batch_size: int = 16,
+    batch_size: int = 15,
     learning_rate: float = 0.001,
     model_name: str = "yolov8n",
     device: str = "cpu",

@@ -9,9 +9,9 @@ logger = logging.getLogger(__name__)
 
 # Car model classes
 CLASSES = {
-    "Toyota": 0, "Honda": 1, "BMW": 2, "Mercedes-Benz": 3, "Audi": 4,
-    "Volkswagen": 5, "Ford": 6, "Chevrolet": 7, "Tesla": 8, "Nissan": 9,
-    "Hyundai": 10, "Kia": 11, "Mazda": 12, "Subaru": 13, "Lexus": 14
+    "Toyota": 0, "Honda": 1, "BMW": 2, "Mercedes": 3, "Audi": 4,
+    "Volkswagen": 5, "Ford": 6, "Chevy": 7, "Tesla": 8, "Nissan": 9,
+    "Hyundai": 10, "Kia": 11, "Pizza": 12, "Truck": 13, "Bus": 14
 }
 
 

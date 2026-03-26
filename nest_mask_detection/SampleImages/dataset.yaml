@@ -2,19 +2,27 @@ names:
   0: Toyota
   1: Honda
   2: BMW
-  3: Mercedes-Benz
+  3: Mercedes
   4: Audi
   5: Volkswagen
   6: Ford
-  7: Chevrolet
+  7: Chevy
   8: Tesla
   9: Nissan
   10: Hyundai
   11: Kia
-  12: Mazda
-  13: Subaru
-  14: Lexus
-nc: 15
+  12: Pizza
+  13: Truck
+  14: Bus
+  15: Police
+  16: USPS
+  17: FedEx
+  18: LandRover
+  19: Porsche
+  20: Jeep
+  21: Lexus
+  22: Volvo
+nc: 23
 path: /Users/abhiayre/MLModel/AAIModel/nest_mask_detection/SampleImages
 test: test/images
 train: train/images
